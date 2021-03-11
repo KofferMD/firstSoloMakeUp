@@ -1,0 +1,239 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: grey;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+
+.navi__list {
+    display: inline-block;
+}
+
+
+.navi__list+.navi__list {
+    padding-left: 50px;
+}
+
+.navi__link {
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    transition: all .3s;
+}
+
+.navi__link:hover {
+    color: #f5d76e;
+}
+
+/* MAIN-TOP */
+
+h1 {
+    font-size: 48px;
+    line-height: 28px;
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+    padding-top: 200px;
+    color: #f5d76e;
+    padding-bottom: 30px;
+}
+
+.main-top {
+    background-image: url('../FirstMakeUp/images/coffee-shop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+
+.main-top__text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 40px;
+}
+
+.menu-top__btn {
+    border: 2px solid #fff;
+    width: 180px;
+    height: 54px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.btn__menu {
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding: 20px 50px;
+}
+
+/* INFO */
+
+.info {
+    margin: 100px 0 80px;
+}
+
+.info__inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info__title {
+    padding-bottom: 40px;
+    font-size: 32px;
+    line-height: 24px;
+}
+
+.info__text {
+    padding-bottom: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* MENU */
+
+.menu__title {
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.menu__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__tea {
+    padding: 0 39px;
+}
+
+.menu__coffee-title {
+    background-image: url('../FirstMakeUp/images/coffee.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu__tea-title {
+    background-image: url('../FirstMakeUp/images/tea.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__desserts-title {
+    background-image: url('../FirstMakeUp/images/desserts.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__title-text {
+    margin: 0;
+    font-size: 40px;
+    line-height: 24px;
+}
+
+.menu__list {
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.menu__item span {
+    float: right;
+}
+
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 70px;
+}
+
+.menu__full-btn {
+    border: 2px solid #000;
+    width: 232px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.info__icon-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
