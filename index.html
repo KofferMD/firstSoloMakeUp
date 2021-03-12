@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe</title>
+
+    <link rel="stylesheet" href="lib/slick/slick.css">
+    <link rel="stylesheet" href="lib/slick/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:wght@700&display=swap"
@@ -171,8 +175,131 @@
 
     </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/js.js"></script>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__inner">
+                <h4 class="reviews__title">Testimonials</h4>
+                <div class="reviews__slider-inner">
+                    <div class="reviews__img">
+                        <img src="images/img.png" alt="">
+                    </div>
+                    <div class="reviews__slider">
+                        <div class="reviews__slider-item">
+
+                            <div class="reviews__slider-wrapper">
+                                <p class="revievs__slider-number">.01</p>
+                                <div class="reviews__slider-review">
+                                    <div class="reviews__slider-icon">
+                                        <img src="images/brendan-lim.png" alt="">
+                                    </div>
+                                    <div class="reviews__slider-name">
+                                        Chris Parker
+                                    </div>
+                                    <div class="reviews__slider-text">
+                                        Nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                        Duis sed odio sit amet nibh vulputate
+                                        cursus a sit amet mauris accumsan.
+                                    </div>
+                                </div>
+                                <img class="revies__slider-mark" src="images/mark.png" alt="">
+                            </div>
+
+                            <div class="reviews__slider-wrapper">
+                                <p class="revievs__slider-number">.02</p>
+                                <div class="reviews__slider-review">
+                                    <div class="reviews__slider-icon">
+                                        <img src="images/brendan-lim.png" alt="">
+                                    </div>
+                                    <div class="reviews__slider-name">
+                                        Chris Parker
+                                    </div>
+                                    <div class="reviews__slider-text">
+                                        Nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                        Duis sed odio sit amet nibh vulputate
+                                        cursus a sit amet mauris accumsan.
+                                    </div>
+                                </div>
+                                <img class="revies__slider-mark" src="images/mark.png" alt="">
+                            </div>
+
+                            <div class="reviews__slider-wrapper">
+                                <p class="revievs__slider-number">.03</p>
+                                <div class="reviews__slider-review">
+                                    <div class="reviews__slider-icon">
+                                        <img src="images/brendan-lim.png" alt="">
+                                    </div>
+                                    <div class="reviews__slider-name">
+                                        Chris Parker
+                                    </div>
+                                    <div class="reviews__slider-text">
+                                        Nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                        Duis sed odio sit amet nibh vulputate
+                                        cursus a sit amet mauris accumsan.
+                                    </div>
+                                </div>
+                                <img class="revies__slider-mark" src="images/mark.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__icon">
+                    <img src="images/Coffee icon divider.png"">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" location">
+                    <div class="container">
+                        <h2 class="location__title">LOCATION</h2>
+                        <div class="location__inner">
+                            <div class="location__address">
+                                <div class="location__address-location location__top-title">LOCATION</div>
+                                <p class="location__address-list">
+                                    Visit us at St. Thomas street 21st,
+                                    suite 110, Santa Monica, California.
+                                </p>
+                                <div class="location__address-hours location__top-title">HOURS</div>
+                                <ul class="location__address-list--work">
+                                    <li class="location__address-item"><em>Mon-Sat:</em><span>7am-8pm</span></li>
+                                    <li class="location__address-item"><em>Sunday:</em><span>7am-5pm</span></li>
+                                </ul>
+                                <div class="location__address-happyhour location__top-title">HAPPYHOUR</div>
+                                <ul class="location__address-list--work">
+                                    <li class="location__address-item"><em>Mon-Fri:</em><span>4am-pm</span>
+                                </ul>
+                            </div>
+
+                            <div id="map" class="location__map">
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <footer>
+        <div class="footer__wrapper">
+            <div class="container">
+                <div class="footer__social">
+                    <img class="footer__social-img" src="images/twitter-icon.png" alt="">
+                    <img class="footer__social-img" src="images/facebook-icon.png" alt="">
+                    <img class="footer__social-img" src="images/Instagram-icon.png" alt="">
+                </div>
+                <div class="footer__text">
+                    <p class="footer__info">
+                        St. Thomas street 21st, Suite 110, Santa Monica, California
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?&callback=initMap&libraries=&v=weekly" async></script>
+
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
