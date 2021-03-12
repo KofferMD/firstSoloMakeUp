@@ -158,7 +158,7 @@ h1 {
 }
 
 .menu__coffee-title {
-
+    background-image: url('images/coffee.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
